@@ -30,7 +30,7 @@ public class PalindromePartition {
         for (int i = 1; i < len * 2; i++) {
             int rad = 1;
             while (i - rad >= 0 && i + rad <= len * 2 && getChar(s, i - rad) == getChar(s, i + rad)) {
-                if ((i + rad) % 2 == 0) {
+                if ((i + rad) % 2 == 0) { //not so strict, but the pollutant elements are not used in the construction, because we search only i >= start
                     f[(i - rad + 1) / 2][(i + rad - 1) / 2] = true;
                 }
                 rad++;
