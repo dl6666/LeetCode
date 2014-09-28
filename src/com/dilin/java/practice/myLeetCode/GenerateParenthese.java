@@ -1,7 +1,6 @@
 package com.dilin.java.practice.myLeetCode;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class GenerateParenthese {
