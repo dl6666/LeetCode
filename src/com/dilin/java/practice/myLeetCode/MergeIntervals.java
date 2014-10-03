@@ -13,12 +13,11 @@ public class MergeIntervals {
         if (size == 1) return intervals;
         List<Interval> res = new ArrayList<Interval>();
         Comparator<Interval> comp = new Comparator<Interval>() {
-            @override
             public int compare (Interval it1, Interval it2) {
                 return it1.start - it2.start;    
             }
         };
-        Collections<Interval>.sort(intervals);
+        Collections.sort(intervals, comp);
         Iterator<Interval> it = intervals.iterator();
         Interval scan = null;
         while (it.hasNext()) {
