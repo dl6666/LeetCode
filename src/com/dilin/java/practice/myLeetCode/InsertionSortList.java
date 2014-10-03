@@ -1,6 +1,5 @@
 package com.dilin.java.practice.myLeetCode;
 
-import com.dilin.java.practice.myLeetCode.Sqrt.ListNode;
 
 public class InsertionSortList {
 	public ListNode insertionSortList(ListNode head) {
