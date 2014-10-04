@@ -1,6 +1,5 @@
 package com.dilin.java.practice.myLeetCode;
 
-import com.dilin.java.practice.myLeetCode.Sqrt.ListNode;
 
 public class AddTwoNumbers {
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
