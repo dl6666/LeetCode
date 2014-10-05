@@ -42,16 +42,34 @@ public class CloneGraph {
                 set.add(curt);
             }
         }
-        // Set<UndirectedGraphNode> keySet = map.keySet();
-        // for (UndirectedGraphNode curt : keySet) {
-        //     UndirectedGraphNode newCurt = map.get(curt);
-        //     List<UndirectedGraphNode> neighbors = curt.neighbors;
-        //     for (UndirectedGraphNode nei : neighbors) {
-        //         newCurt.neighbors.add(map.get(nei));
-        //     }
-        // }
         return map.get(node);
     }
+//	public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
+//        HashMap<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<UndirectedGraphNode, UndirectedGraphNode>();
+//        ArrayList<UndirectedGraphNode> que = new ArrayList<UndirectedGraphNode>();
+//        if (node == null) return null;
+//        que.add(node);
+//        map.put(node, new UndirectedGraphNode(node.label));
+//        int tail = 0;
+//        while(tail < que.size()) {
+//            UndirectedGraphNode curt = que.get(tail++);
+//            for (UndirectedGraphNode n : curt.neighbors) {
+//                if (!map.containsKey(n)) {
+//                    que.add(n);
+//                    map.put(n, new UndirectedGraphNode(n.label));//should be added to the map once it is added to the queue
+//                }
+//            }
+//        }
+//        tail = 0;
+//        while(tail < que.size()) {
+//            UndirectedGraphNode curt = que.get(tail++);
+//            List<UndirectedGraphNode> newNeighbors = map.get(curt).neighbors;
+//            for (UndirectedGraphNode n : curt.neighbors) {
+//                newNeighbors.add(map.get(n));
+//            }
+//        }
+//        return map.get(node);
+//    }
 	class UndirectedGraphNode {
 	    int label;
 	    List<UndirectedGraphNode> neighbors;
