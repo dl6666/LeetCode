@@ -1,4 +1,4 @@
-package com.dilin.java.practice.imp.problems;
+package com.dilin.java.practice.myLeetCode;
 
 public class DecodeWays {
 
