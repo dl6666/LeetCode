@@ -1,4 +1,4 @@
-package com.dilin.java.practice.myLeetCode;
+package com.dilin.java.practice.imp.others;
 
 import java.util.ArrayList;
 
