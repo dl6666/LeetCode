@@ -4,7 +4,7 @@ public class StringToLong {
 	public static void main(String[] args) {
 		String[] inputs = new String[]{
 				"-00009888",
-				"9873",
+				"   9873            ",
 				"-00983",
 				"-00000009358749259342159215792175483920517",
 				"9223372036854775807",
@@ -29,6 +29,7 @@ public class StringToLong {
 	}
 	public static long stringToLong (String s) {
 		long res = 0;
+		s = s.trim();
 		if (s == null || s.length() == 0) return res;
 		int len = s.length();
 		boolean pos = true;
