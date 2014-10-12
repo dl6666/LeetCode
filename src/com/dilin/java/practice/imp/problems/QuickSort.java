@@ -5,7 +5,7 @@ import java.util.Random;
 public class QuickSort {
 	private int partition (int[] num, int start, int end) {
 		Random rand = new Random();
-		int index = start + rand.nextInt(end - start);
+		int index = start + rand.nextInt(end - start + 1);
 		int piv = num[index];
 		while (start <= end) {
 			while (num[start] < piv) {
