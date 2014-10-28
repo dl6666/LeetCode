@@ -1,5 +1,9 @@
 package com.dilin.java.practice.myLeetCode;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class PermutationsII {
 
 	public List<List<Integer>> permuteUnique(int[] num) {
@@ -24,5 +28,5 @@ public class PermutationsII {
                 }
             }
         }
-    }
+    } 
 }
