@@ -1,4 +1,4 @@
-package com.dilin.java.practice.imp.problems;
+package myleetcode;
 
 public class OneDMaxSum {
 	public int maxSum (int[] n) {

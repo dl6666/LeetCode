@@ -1,4 +1,4 @@
-package com.dilin.java.practice.myLeetCode;
+package myleetcode;
 
 import java.util.Comparator;
 import java.util.Iterator;

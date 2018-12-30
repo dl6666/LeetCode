@@ -1,4 +1,4 @@
-package com.dilin.java.practice.myLeetCode;
+package myleetcode;
 
 public class Pow {
 	public double pow(double x, int n) {

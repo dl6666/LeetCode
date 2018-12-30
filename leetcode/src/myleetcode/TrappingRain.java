@@ -1,4 +1,4 @@
-package com.dilin.java.practice.myLeetCode;
+package myleetcode;
 
 public class TrappingRain {
 	public int trap(int[] A) {

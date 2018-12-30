@@ -1,4 +1,4 @@
-package com.dilin.java.practice.imp.problems;
+package myleetcode;
 
 public class OneBitCount {
 	public int getCount (int n, int m) {

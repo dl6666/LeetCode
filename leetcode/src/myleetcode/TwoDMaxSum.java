@@ -1,4 +1,4 @@
-package com.dilin.java.practice.imp.problems;
+package myleetcode;
 
 public class TwoDMaxSum {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.dilin.java.practice.myLeetCode;
+package myleetcode;
 
 public class RemoveElement {
 	public int removeElement(int[] A, int elem) {

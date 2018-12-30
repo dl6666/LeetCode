@@ -1,4 +1,4 @@
-package com.dilin.java.practice.myLeetCode;
+package myleetcode;
 
 public class MergeTwoLinkedList {
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

@@ -1,9 +1,8 @@
-package com.dilin.practice;
-
+package myleetcode;
 
 public class ConstructStringFromBinaryTree {
     public static void main(String[] args) {
-
+        System.out.println("haha");
     }
 
 }

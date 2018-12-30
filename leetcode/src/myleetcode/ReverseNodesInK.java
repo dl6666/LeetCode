@@ -1,4 +1,4 @@
-package com.dilin.java.practice.myLeetCode;
+package myleetcode;
 
 public class ReverseNodesInK {
 	public ListNode reverseKGroup(ListNode head, int k) {

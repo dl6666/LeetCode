@@ -1,6 +1,5 @@
-package com.dilin.java.practice.imp.problems;
+package myleetcode;
 
-import com.dilin.java.practice.myLeetCode.TreeNode;
 public class SerializeAndDeserializeDriver {
 
 	public static void main(String[] args) {

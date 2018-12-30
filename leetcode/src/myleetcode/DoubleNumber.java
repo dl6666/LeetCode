@@ -1,4 +1,4 @@
-package com.dilin.java.practice.myLeetCode;
+package myleetcode;
 
 public class DoubleNumber {
 	public static void main(String[] args) {

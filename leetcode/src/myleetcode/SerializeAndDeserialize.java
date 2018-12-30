@@ -1,10 +1,8 @@
-package com.dilin.java.practice.imp.problems;
+package myleetcode;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
-
-import com.dilin.java.practice.myLeetCode.TreeNode;
 
 public class SerializeAndDeserialize {
 

@@ -1,9 +1,7 @@
-package com.dilin.java.practice.myLeetCode;
+package myleetcode;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.dilin.java.practice.imp.problems.MaxTree.TreeNode;
 
 public class PathSumII {
 	public List<List<Integer>> pathSum(TreeNode root, int sum) {

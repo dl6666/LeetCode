@@ -1,4 +1,4 @@
-package com.dilin.java.practice.myLeetCode;
+package myleetcode;
 
 public class InterleavingStrings {
 	public boolean isInterleave(String s1, String s2, String s3) {
