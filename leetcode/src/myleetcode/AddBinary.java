@@ -1,4 +1,4 @@
-package com.dilin.java.practice.myLeetCode;
+package myleetcode;
 
 public class AddBinary {
 	public String addBinary(String a, String b) {
